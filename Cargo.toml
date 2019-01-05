@@ -1,0 +1,13 @@
+[package]
+name = "rs-actix-web-horaire"
+version = "0.2.0"
+authors = ["Christian FOUCHER <christian.foucher@gmail.com>"]
+edition = "2018"
+
+[profile.release]
+lto = true
+
+[dependencies]
+actix-web = "*"
+# error_chain = "*"
+horaire = { git = "https://github.com/prisme60/rs-horaire.git" }
